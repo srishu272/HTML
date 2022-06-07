@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="background-color: gray;">
+    <form>
+        <b>Enter your Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    :</b>
+        <input type="text" id="Fname" name="Fname">
+        <br>
+        <br>
+        <b>Enter your Mail-ID &nbsp;&nbsp;&nbsp;&nbsp;     : </b>
+        <input type="email" placeholder="example@gmail.com" id="email">
+        <br>
+        <br>
+        <b>Choose your Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  </b>
+        <input type="radio" id="M" name="gender" value="MALE">
+        <lable for="M">Male</lable>
+        <input type="radio" id="F" name="gender" value="FEMALE">
+        <lable for="F">Female</lable>
+        <input type="radio" id="O" name="gender" value="OTHER">
+        <lable for="O">Other</lable>
+        <br>
+        <br>
+        <b>Create your password&nbsp;&nbsp;&nbsp;&nbsp;:</b>
+        <input type="password" id="password" name="password">
+        <br>
+        <br>
+        <b>Confirm your password&nbsp;&nbsp;&nbsp;&nbsp;:</b>
+        <input type="password" id="password" name="password">
+        <br>
+        <br>
+        <b>Mobile Number:</b>
+        <input type="text" placeholder="9999999999" id="phno">
+        <br>
+        <br>
+        <b>Choose your DOB:</b>
+        <input type="date" placeholder="DD-MM-YYYY" id="date">
+        <br>
+        <br>
+        <b>Address:</b>
+        <input type="text" placeholder="Street Address" id="sname"> <input type="text" placeholder="Street Address 2" id="sname2"><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="City" id="city">
+        <input type="text" placeholder="State/Province" id="state"><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Postal Code" id="pincode">
+        <input type="text" placeholder="Country" id="country">
+        <br>
+        <br>
+        <label for="location"><b>Choose your location:</b></label>
+        <select name="location" id="location">
+            <option value="Surat">Surat</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+            <option value="Baroda">Baroda</option>
+            <option value="Anand">Anand</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" style="text-align: center;" value="SUBMIT" id="submit">
+        <button type="reset" value="Reset">CLEAR</button>
+    </form>
+</body>
+</html>
